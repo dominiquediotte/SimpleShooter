@@ -68,10 +68,9 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 FindMousePosition()
     {
         Vector3 result = Vector3.zero;
-        RaycastHit hit;
         Ray ray = m_camera.ScreenPointToRay(Input.mousePosition);
 
-        if (Physics.Raycast(ray, out hit, 1000))
+        if (Physics.Raycast(ray, out RaycastHit hit, 1000))
         {
             result.x = hit.point.x;
             result.y = hit.point.y;

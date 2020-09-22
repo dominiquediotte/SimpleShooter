@@ -124,3 +124,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_speed: 1
+  m_deathSound: {fileID: 11400000, guid: 3e387196fc125d3478479369253fb276, type: 2}
+  m_deathParticle: {fileID: 3895003251772479600, guid: d141e6cba040a1a4187c1a11f20e4eac,
+    type: 3}

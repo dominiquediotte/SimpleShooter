@@ -15,6 +15,7 @@ public class Bullet : MonoBehaviour
     {
         m_rigidbody = GetComponent<Rigidbody>();
         m_timeLeftToLive = m_lifespan;
+        Destroy(gameObject, m_lifespan);
     }
 
     // Update is called once per frame
